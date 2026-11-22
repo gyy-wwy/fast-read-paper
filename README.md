@@ -8,7 +8,7 @@
 
 ## 用法
 
-把本目录放到你的 skills 目录下（通常叫 `fast-read-paper` 或 `fast-read-paper-generic`），然后在对话里说：
+把本目录放到你的 skills 目录下（叫 `fast-read-paper` ），然后在对话里说：
 
 - 「用 fast-read-paper 读这篇论文」+ 附上 **PDF 路径 / 标题 / DOI / arXiv id**。
 
@@ -32,14 +32,14 @@
 ## 目录结构
 
 ```
-fast-read-paper-generic/
+fast-read-paper/
 ├── SKILL.md      # 核心：skill 指令
 └── README.md     # 本说明
 ```
 
 ## 安装
 
-1. 复制 `SKILL.md` 到你的 skills 目录下的 `fast-read-paper-generic/` 文件夹。
+1. 复制 `SKILL.md` 到你的 skills 目录下的 `fast-read-paper/` 文件夹。
 2. 让 AI 环境重新加载 skill（新会话或刷新）。
 3. 对话里说「用 fast-read-paper 读这篇论文」即可。
 
