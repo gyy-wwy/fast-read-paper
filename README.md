@@ -1,0 +1,48 @@
+# Fast Read Paper（快速读论文）
+
+一个「像耐心的学术导师一样」带你读懂论文的 skill。**不直接给全文总结**，而是用六步流程从四个层次把论文真正拆懂。
+
+## 它是什么
+
+这是一个可复用的 AI skill（`SKILL.md`），适用于支持 skill 的 AI Agent 环境（如 DeepSeek Harness / Claude 的 skills 机制）。
+
+## 用法
+
+把本目录放到你的 skills 目录下（通常叫 `fast-read-paper` 或 `fast-read-paper-generic`），然后在对话里说：
+
+- 「用 fast-read-paper 读这篇论文」+ 附上 **PDF 路径 / 标题 / DOI / arXiv id**。
+
+它会按下面的流程输出。
+
+## 六步流程
+
+1. **总体思路** — 先用四层框架立起来（解决什么问题 / 什么方法 / 凭什么有效 / 我能拿走什么），不急着总结。
+2. **拆问题** — 背景、痛点、真问题、为什么值得研究、一句话概括。
+3. **拆方法** — 方法/框架是什么（精讲架构）、分几步、每步解决什么、与传统差异、创新点。
+4. **拆结果** — 实验/数据、baseline、哪些结果最有力、局限、哪些是推测。
+5. **拆启发** — 可借鉴的思路、可迁移的方法、实验设计、延伸方向、不足与改进。
+6. **复盘表** — 主题/问题/方法/创新点/结果/局限/启发/关键词，一张表。
+
+## 额外能力
+
+- **英文论文关键段翻译**：摘要 / 方法 / 实验结论 / 创新点四类都翻，保留术语原词、拆长句、解释作用。
+- **结构图截取**：论文是 PDF 时，把含框架图（framework / architecture）的页面渲染成图片交给用户。
+- **自包含检索**：用户只给标题 / DOI / arXiv id 时，用 arXiv / Crossref / OpenAlex / Unpaywall 等免 key 开放 API 自己检索，不依赖 `paper-lookup`。
+
+## 目录结构
+
+```
+fast-read-paper-generic/
+├── SKILL.md      # 核心：skill 指令
+└── README.md     # 本说明
+```
+
+## 安装
+
+1. 复制 `SKILL.md` 到你的 skills 目录下的 `fast-read-paper-generic/` 文件夹。
+2. 让 AI 环境重新加载 skill（新会话或刷新）。
+3. 对话里说「用 fast-read-paper 读这篇论文」即可。
+
+## 许可
+
+MIT
