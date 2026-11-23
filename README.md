@@ -27,20 +27,23 @@
 
 - **英文论文关键段翻译**：摘要 / 方法 / 实验结论 / 创新点四类都翻，保留术语原词、拆长句、解释作用。
 - **结构图截取**：论文是 PDF 时，把含框架图（framework / architecture）的页面渲染成图片交给用户。
-- **自包含检索**：用户只给标题 / DOI / arXiv id 时，用 arXiv / Crossref / OpenAlex / Unpaywall 等免 key 开放 API 自己检索。
+- **自包含检索**：用户只给标题 / DOI / arXiv id 时，用 arXiv / Crossref / OpenAlex / Unpaywall 等免 key 开放 API 自己检索，不依赖 `paper-lookup`。
 - **XMind 思维导图**：复盘时生成 `.xmind` 文件，中心主题为文献名，支持简略版 / 详细版两种。
+- **学术 PPT（可选第七步）**：六步后可选生成文献汇报 PPT——先出文字执行稿（等确认），再逐页重建结构化 SVG 并配合 PowerPoint 双态调试。
 
 ## 目录结构
 
 ```
-fast-read-paper/
-├── SKILL.md      # 核心：skill 指令
-└── README.md     # 本说明
+fast-read-paper-generic/
+├── SKILL.md                       # 核心：skill 指令
+├── references/
+│   └── academic-ppt.md            # 第七步「学术 PPT」的完整规范
+└── README.md                      # 本说明
 ```
 
 ## 安装
 
-1. 复制 `SKILL.md` 到你的 skills 目录下的 `fast-read-paper/` 文件夹。
+1. 复制整个 `fast-read-paper-generic/` 目录（含 `SKILL.md` 和 `references/`）到你的 skills 目录下。
 2. 让 AI 环境重新加载 skill（新会话或刷新）。
 3. 对话里说「用 fast-read-paper 读这篇论文」即可。
 
