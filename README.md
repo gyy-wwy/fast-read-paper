@@ -8,7 +8,7 @@
 
 ## 用法
 
-把本目录放到你的 skills 目录下（叫 `fast-read-paper`），然后在对话里说：
+把本目录放到你的 skills 目录下（叫 `fast-read-paper-generic`），然后在对话里说：
 
 - 「用 fast-read-paper 读这篇论文」+ 附上 **PDF 路径 / 标题 / DOI / arXiv id**。
 
