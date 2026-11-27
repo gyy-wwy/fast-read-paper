@@ -10,7 +10,7 @@
 
 ## 用法
 
-把本目录放到你的 skills 目录下（叫 `fast-read-paper-generic`），然后在对话里说：
+把本目录放到你的 skills 目录下（叫 `fast-read-paper`），然后在对话里说：
 
 - 「用 fast-read-paper 读这篇论文」+ 附上 **PDF 路径 / 标题 / DOI / arXiv id**。
 
@@ -37,7 +37,7 @@
 ## 目录结构
 
 ```
-fast-read-paper-generic/
+fast-read-paper/
 ├── SKILL.md                       # 核心：skill 指令
 ├── references/
 │   ├── academic-ppt.md            # 第七步「学术 PPT」的完整规范
@@ -48,7 +48,7 @@ fast-read-paper-generic/
 
 ## 安装
 
-1. 复制整个 `fast-read-paper-generic/` 目录（含 `SKILL.md` 和 `references/`）到你的 skills 目录下。
+1. 复制整个 `fast-read-paper/` 目录（含 `SKILL.md` 和 `references/`）到你的 skills 目录下。
 2. 让 AI 环境重新加载 skill（新会话或刷新）。
 3. 对话里说「用 fast-read-paper 读这篇论文」即可。
 
