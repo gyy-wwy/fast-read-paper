@@ -1,5 +1,7 @@
 # Fast Read Paper（快速读论文）
 
+**当前版本：v2.0.0** ｜ [变更日志](CHANGELOG.md)
+
 一个「像耐心的学术导师一样」带你读懂论文的 skill。**不直接给全文总结**，而是用六步流程从四个层次把论文真正拆懂。
 
 ## 它是什么
@@ -40,6 +42,7 @@ fast-read-paper-generic/
 ├── references/
 │   ├── academic-ppt.md            # 第七步「学术 PPT」的完整规范
 │   └── svg-ppt-toolchain.md       # SVG→PPT 度量/折行/几何校验骨架
+├── CHANGELOG.md                   # 版本变更记录
 └── README.md                      # 本说明
 ```
 

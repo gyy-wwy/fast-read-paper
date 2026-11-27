@@ -4,7 +4,7 @@ description: 像耐心的学术导师一样，用六步流程（拆问题→拆�
 allowed-tools: Read Glob Bash
 license: MIT
 metadata:
-  version: "1.0"
+  version: "2.0.0"
   skill-author: "user"
 ---
 
